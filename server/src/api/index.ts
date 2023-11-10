@@ -1,9 +1,8 @@
 import { Router } from "express";
-import { AsyncRouter } from "express-async-router";
 
 import { getCompanyByID } from "./controller.js";
 
-const router = AsyncRouter(Router());
+const router = Router();
 
 router.get("/company/:id", getCompanyByID);
 

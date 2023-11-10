@@ -11,13 +11,15 @@
     "react-router-dom": "^5.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.12",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "babel-loader": "^8.2.3",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-router-dom": "^5.3.2",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
+    "ts-loader": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
